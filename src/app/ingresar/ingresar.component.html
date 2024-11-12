@@ -1,0 +1,16 @@
+<p>ingresar works!</p>
+<form action="/formulario" id="ingresar">
+    <label for="nombre">Estudiante</label>
+    <br><select id="nombre" name="nombre" (change) = "consultaEstudiantes()">
+        <option disabled selected>Selecciona un estudiante</option>
+        <option *ngFor="let estudiante of estudiantes" [value] = "estudiante">
+            {{estudiante.nombre}}
+        </option>
+    </select>
+    <p><label for="prueba">Prueba</label>
+        <br><input type="text" id="prueba" name="prueba" />
+    <p><label for="pregunta">Pregunta:</label>
+        <br><input type="text" id="pregunta" name="pregunta" />
+    <p><label for="respuesta">Respuesta:</label>
+        <br><input type="text" id="respuesta" name="respuesta" />
+</form>
