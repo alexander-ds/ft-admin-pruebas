@@ -1,7 +1,6 @@
-# FtPruebaCeinfes
+# ft-admin-pruebas
 
-## Parte front de la prueba de CEINFES para la vacante de desarrollador
-
+## Parte front del ejercicio de pruebas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
